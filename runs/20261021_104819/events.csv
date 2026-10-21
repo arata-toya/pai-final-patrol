@@ -1,0 +1,8 @@
+time,odometry_x_m,event
+2026-10-21T10:49:26.734239,1.0031535082308476e-17,Patrol started
+2026-10-21T10:49:27.591415,1.0031535082308476e-17,AI: normal sign recognized
+2026-10-21T10:50:05.180988,5.169500000002331,AI: inspect sign recognized; braking
+2026-10-21T10:50:08.068701,5.3906000000033005,Stop confirmed; image saved; inspection pause
+2026-10-21T10:50:11.140787,5.3906000000033005,Inspection pause finished; resume
+2026-10-21T10:50:19.094408,6.517300000004995,End position reached; braking
+2026-10-21T10:50:21.769940,6.538000000005857,Stop confirmed: finished after inspection
