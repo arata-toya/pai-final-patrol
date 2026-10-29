@@ -1,0 +1,62 @@
+{
+  "scope": "Fresh synthetic seed 800000+, no training or validation overlap",
+  "labels": [
+    "normal",
+    "stain",
+    "crack"
+  ],
+  "threshold": 0.85,
+  "results": {
+    "before": {
+      "correct": 555,
+      "total": 600,
+      "confusion_matrix": [
+        [
+          193,
+          7,
+          0
+        ],
+        [
+          25,
+          170,
+          5
+        ],
+        [
+          0,
+          8,
+          192
+        ]
+      ],
+      "accepted": 438,
+      "accepted_correct": 433,
+      "crack_TP": 176,
+      "crack_FP": 2
+    },
+    "after": {
+      "correct": 544,
+      "total": 600,
+      "confusion_matrix": [
+        [
+          171,
+          29,
+          0
+        ],
+        [
+          11,
+          174,
+          15
+        ],
+        [
+          0,
+          1,
+          199
+        ]
+      ],
+      "accepted": 417,
+      "accepted_correct": 413,
+      "crack_TP": 198,
+      "crack_FP": 2
+    }
+  },
+  "model_sha256": "0148fd9528b8184b070c65f291b9554c1d87b3a2661dff4047aa880e125b5981"
+}

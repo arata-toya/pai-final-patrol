@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+logs/
+.run.lock
+*.tar.gz
+worlds/CASE_*.sdf
+/runs_v3/*
+!/runs_v3/20261029_110525_490189_CASE_A_cnn/
+!/runs_v3/20261029_112525_167047_CASE_A_capture/
+!/runs_v3/20261029_114355_940885_CASE_A_cnn/
+!/runs_v3/20261029_114627_309047_CASE_B_cnn/
+!/runs_v3/20261029_114849_972014_CASE_C_cnn/
+!/runs_v3/20261029_115052_132533_CASE_D_cnn/
+!/runs_v3/20261029_115534_523392_CASE_D_cnn/
+!/runs_v3/20261029_125222_111841_CASE_D_cnn/

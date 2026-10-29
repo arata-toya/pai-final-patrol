@@ -1,0 +1,60 @@
+{
+  "scope": "REJECTED global sharpening development experiment, not installed",
+  "labels": [
+    "normal",
+    "stain",
+    "crack"
+  ],
+  "results": {
+    "before": {
+      "total": 360,
+      "correct": 332,
+      "matrix": [
+        [
+          115,
+          5,
+          0
+        ],
+        [
+          11,
+          101,
+          8
+        ],
+        [
+          0,
+          4,
+          116
+        ]
+      ],
+      "accepted": 255,
+      "crack_TP": 108,
+      "crack_FP": 4,
+      "scores": null
+    },
+    "after": {
+      "total": 360,
+      "correct": 248,
+      "matrix": [
+        [
+          34,
+          86,
+          0
+        ],
+        [
+          3,
+          94,
+          23
+        ],
+        [
+          0,
+          0,
+          120
+        ]
+      ],
+      "accepted": 303,
+      "crack_TP": 120,
+      "crack_FP": 11,
+      "scores": null
+    }
+  }
+}

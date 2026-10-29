@@ -1,0 +1,12 @@
+{
+  "scope": "synthetic hold-out crop confidence check; not Gazebo",
+  "threshold": 0.85,
+  "total": 180,
+  "accepted": 132,
+  "uncertain": 48,
+  "accepted_correct": 131,
+  "crack_true_positive": 54,
+  "crack_false_positive": 1,
+  "crack_not_accepted": 6,
+  "model_sha256": "c22a854e12e799c3ee2e55abf60e3943184bc92e24d23de0b064f1eace05d8c4"
+}

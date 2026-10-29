@@ -1,0 +1,96 @@
+{
+  "scope": "Three known CASE_A capture crops for development verification, not independent test or autonomous task success",
+  "labels": [
+    "normal",
+    "stain",
+    "crack"
+  ],
+  "threshold": 0.85,
+  "results": {
+    "before": {
+      "correct": 2,
+      "total": 3,
+      "confusion_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "accepted": 2,
+      "accepted_correct": 2,
+      "crack_TP": 0,
+      "crack_FP": 0,
+      "scores": [
+        [
+          0.921025276184082,
+          0.07880264520645142,
+          0.00017208393546752632
+        ],
+        [
+          0.01460136380046606,
+          0.9781512022018433,
+          0.007247498724609613
+        ],
+        [
+          1.1368887271601125e-06,
+          0.6052632331848145,
+          0.3947356641292572
+        ]
+      ]
+    },
+    "after": {
+      "correct": 3,
+      "total": 3,
+      "confusion_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "accepted": 3,
+      "accepted_correct": 3,
+      "crack_TP": 1,
+      "crack_FP": 0,
+      "scores": [
+        [
+          0.9437404870986938,
+          0.05433391034603119,
+          0.001925612217746675
+        ],
+        [
+          0.001288941828534007,
+          0.8759268522262573,
+          0.12278423458337784
+        ],
+        [
+          1.563390150845223e-12,
+          0.008652669377624989,
+          0.9913473725318909
+        ]
+      ]
+    }
+  },
+  "model_sha256": "0148fd9528b8184b070c65f291b9554c1d87b3a2661dff4047aa880e125b5981"
+}

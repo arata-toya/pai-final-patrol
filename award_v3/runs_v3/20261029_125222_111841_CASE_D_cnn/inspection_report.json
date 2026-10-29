@@ -1,0 +1,40 @@
+[
+  {
+    "index": 1,
+    "stop_x_m": 3.009860000000345,
+    "estimated_target_x_m": 6.879412932209949,
+    "last_image_range_m": 2.765593146401163,
+    "classification": "crack",
+    "capture_only": false,
+    "model_sha256": "0148fd9528b8184b070c65f291b9554c1d87b3a2661dff4047aa880e125b5981",
+    "confidence": 0.9918570518493652,
+    "probabilities": [
+      6.51540887214308e-13,
+      0.008143013343214989,
+      0.9918570518493652
+    ],
+    "crop_age_s": 0.030743434999749297,
+    "image": "inspection_01.png",
+    "annotated_image": "inspection_01_annotated.png",
+    "note": "Synthetic wall experiment; not a structural diagnosis"
+  },
+  {
+    "index": 2,
+    "stop_x_m": 6.007540000002175,
+    "estimated_target_x_m": 9.872677673316339,
+    "last_image_range_m": 2.765593146401163,
+    "classification": "crack",
+    "capture_only": false,
+    "model_sha256": "0148fd9528b8184b070c65f291b9554c1d87b3a2661dff4047aa880e125b5981",
+    "confidence": 0.9996080994606018,
+    "probabilities": [
+      1.4643785160215957e-33,
+      0.0003919805458281189,
+      0.9996080994606018
+    ],
+    "crop_age_s": 0.12079883300248184,
+    "image": "inspection_02.png",
+    "annotated_image": "inspection_02_annotated.png",
+    "note": "Synthetic wall experiment; not a structural diagnosis"
+  }
+]

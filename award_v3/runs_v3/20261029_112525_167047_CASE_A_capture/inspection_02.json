@@ -1,0 +1,18 @@
+{
+  "index": 2,
+  "stop_x_m": 3.0126239999991906,
+  "estimated_target_x_m": 6.892822718048194,
+  "last_image_range_m": 2.7468719659134013,
+  "classification": "stain",
+  "capture_only": true,
+  "confidence": 0.9781512022018433,
+  "probabilities": [
+    0.014601336792111397,
+    0.9781512022018433,
+    0.007247505709528923
+  ],
+  "crop_age_s": 0.04367384299985133,
+  "image": "inspection_02.png",
+  "annotated_image": "inspection_02_annotated.png",
+  "note": "Synthetic wall experiment; not a structural diagnosis"
+}

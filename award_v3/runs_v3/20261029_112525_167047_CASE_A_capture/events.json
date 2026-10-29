@@ -1,0 +1,89 @@
+[
+  {
+    "elapsed_s": 0.35895401399830007,
+    "x_m": 3.8368667082018575e-19,
+    "event": "START"
+  },
+  {
+    "elapsed_s": 0.3895453919976717,
+    "x_m": 4.119167748307239e-19,
+    "event": "NORMAL_RECOGNIZED"
+  },
+  {
+    "elapsed_s": 0.7306573229980131,
+    "x_m": 0.02331000000035651,
+    "event": "ROI_BRAKING",
+    "image_range_m": 2.7153630545376006
+  },
+  {
+    "elapsed_s": 1.2586285389988916,
+    "x_m": 0.03724000000112017,
+    "event": "CAPTURE_CONFIRMED",
+    "index": 1,
+    "stop_x_m": 0.03724000000112017,
+    "estimated_target_x_m": 3.872362114234287,
+    "last_image_range_m": 2.7153630545376006
+  },
+  {
+    "elapsed_s": 4.295299752000574,
+    "x_m": 0.03724000000112017,
+    "event": "RESUME"
+  },
+  {
+    "elapsed_s": 9.058390909998707,
+    "x_m": 0.7855400000019985,
+    "event": "STAIN_RECOGNIZED"
+  },
+  {
+    "elapsed_s": 24.735911801999464,
+    "x_m": 2.9989739999985874,
+    "event": "ROI_BRAKING",
+    "image_range_m": 2.7468719659134013
+  },
+  {
+    "elapsed_s": 25.133022308000363,
+    "x_m": 3.0126239999991906,
+    "event": "CAPTURE_CONFIRMED",
+    "index": 2,
+    "stop_x_m": 3.0126239999991906,
+    "estimated_target_x_m": 6.892822718048194,
+    "last_image_range_m": 2.7468719659134013
+  },
+  {
+    "elapsed_s": 28.162687053998525,
+    "x_m": 3.0126239999991906,
+    "event": "RESUME"
+  },
+  {
+    "elapsed_s": 48.05060156699983,
+    "x_m": 5.991194000000377,
+    "event": "ROI_BRAKING",
+    "image_range_m": 2.7524021340108904
+  },
+  {
+    "elapsed_s": 48.543547973000386,
+    "x_m": 6.012124000000994,
+    "event": "CAPTURE_CONFIRMED",
+    "index": 3,
+    "stop_x_m": 6.012124000000994,
+    "estimated_target_x_m": 9.892169134011267,
+    "last_image_range_m": 2.7524021340108904
+  },
+  {
+    "elapsed_s": 51.54707358399901,
+    "x_m": 6.012124000000994,
+    "event": "RESUME"
+  },
+  {
+    "elapsed_s": 84.27827058299954,
+    "x_m": 12.326544000004999,
+    "event": "END_BRAKING",
+    "image_range_m": null
+  },
+  {
+    "elapsed_s": 84.84229721099837,
+    "x_m": 12.366444000006208,
+    "event": "DONE",
+    "inspection_count": 3
+  }
+]

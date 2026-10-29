@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-29",
+  "model_sha256": "0148fd9528b8184b070c65f291b9554c1d87b3a2661dff4047aa880e125b5981",
+  "current_model_runs": [
+    "20261029_114355_940885_CASE_A_cnn",
+    "20261029_114627_309047_CASE_B_cnn",
+    "20261029_114849_972014_CASE_C_cnn",
+    "20261029_115052_132533_CASE_D_cnn",
+    "20261029_115534_523392_CASE_D_cnn",
+    "20261029_125222_111841_CASE_D_cnn"
+  ],
+  "current_model_success": 6,
+  "current_model_total": 6,
+  "earlier_runs": [
+    "20261029_110525_490189_CASE_A_cnn"
+  ],
+  "capture_runs_excluded": [
+    "20261029_112525_167047_CASE_A_capture"
+  ],
+  "inspection_count": 8,
+  "pause_s_min": 3.0001544220031064,
+  "pause_s_max": 3.057151826000336,
+  "unit_tests_passed": 15,
+  "dataset_sha256_verified": 1080,
+  "video_drive_run": "20261029_125222_111841_CASE_D_cnn",
+  "video_report_run": "20261029_115052_132533_CASE_D_cnn"
+}

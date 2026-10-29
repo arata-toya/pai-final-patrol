@@ -1,0 +1,45 @@
+{
+  "scope": "held-out synthetic crops, NOT Gazebo or real damage",
+  "labels": [
+    "normal",
+    "stain",
+    "crack"
+  ],
+  "selected_epoch": 38,
+  "train_counts": {
+    "normal": 240,
+    "stain": 240,
+    "crack": 240
+  },
+  "validation_counts": {
+    "normal": 60,
+    "stain": 60,
+    "crack": 60
+  },
+  "test_counts": {
+    "normal": 60,
+    "stain": 60,
+    "crack": 60
+  },
+  "confusion_matrix": [
+    [
+      59,
+      1,
+      0
+    ],
+    [
+      5,
+      54,
+      1
+    ],
+    [
+      0,
+      6,
+      54
+    ]
+  ],
+  "correct": 167,
+  "total": 180,
+  "accuracy": 0.9277777671813965,
+  "model_sha256": "c22a854e12e799c3ee2e55abf60e3943184bc92e24d23de0b064f1eace05d8c4"
+}

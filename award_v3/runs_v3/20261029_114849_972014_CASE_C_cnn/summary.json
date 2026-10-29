@@ -1,0 +1,44 @@
+{
+  "version": "v3.0.2",
+  "scenario": "CASE_C",
+  "mode": "cnn",
+  "capture_only": false,
+  "model_sha256": "0148fd9528b8184b070c65f291b9554c1d87b3a2661dff4047aa880e125b5981",
+  "final_state": "DONE",
+  "normal_seen": true,
+  "stain_seen": true,
+  "inspections": [],
+  "stop_m": 2.8,
+  "end_x": 12.3,
+  "last_x_m": 12.36844000011972,
+  "elapsed_s": 76.07835554100166,
+  "events": [
+    {
+      "elapsed_s": 1.6034126740014472,
+      "x_m": -2.5235765774836422e-17,
+      "event": "START"
+    },
+    {
+      "elapsed_s": 1.6952106590033509,
+      "x_m": -2.5235765774836422e-17,
+      "event": "NORMAL_RECOGNIZED"
+    },
+    {
+      "elapsed_s": 5.379709989003459,
+      "x_m": 0.536340000115205,
+      "event": "STAIN_RECOGNIZED"
+    },
+    {
+      "elapsed_s": 75.08063931400102,
+      "x_m": 12.324340000118507,
+      "event": "END_BRAKING",
+      "image_range_m": null
+    },
+    {
+      "elapsed_s": 75.66805968100016,
+      "x_m": 12.36844000011972,
+      "event": "DONE",
+      "inspection_count": 0
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "scope": "Existing synthetic hold-out crops",
+  "labels": [
+    "normal",
+    "stain",
+    "crack"
+  ],
+  "threshold": 0.85,
+  "results": {
+    "before": {
+      "correct": 167,
+      "total": 180,
+      "confusion_matrix": [
+        [
+          59,
+          1,
+          0
+        ],
+        [
+          5,
+          54,
+          1
+        ],
+        [
+          0,
+          6,
+          54
+        ]
+      ],
+      "accepted": 132,
+      "accepted_correct": 131,
+      "crack_TP": 54,
+      "crack_FP": 1
+    },
+    "after": {
+      "correct": 165,
+      "total": 180,
+      "confusion_matrix": [
+        [
+          51,
+          9,
+          0
+        ],
+        [
+          0,
+          54,
+          6
+        ],
+        [
+          0,
+          0,
+          60
+        ]
+      ],
+      "accepted": 128,
+      "accepted_correct": 126,
+      "crack_TP": 60,
+      "crack_FP": 1
+    }
+  },
+  "model_sha256": "0148fd9528b8184b070c65f291b9554c1d87b3a2661dff4047aa880e125b5981"
+}

@@ -1,0 +1,97 @@
+{
+  "version": "v3.0.2",
+  "scenario": "CASE_D",
+  "mode": "cnn",
+  "capture_only": false,
+  "model_sha256": "0148fd9528b8184b070c65f291b9554c1d87b3a2661dff4047aa880e125b5981",
+  "final_state": "DONE",
+  "normal_seen": true,
+  "stain_seen": true,
+  "inspections": [
+    {
+      "index": 1,
+      "stop_x_m": 3.0178400001129733,
+      "estimated_target_x_m": 6.8829968201782785,
+      "last_image_range_m": 2.7402248920472934
+    },
+    {
+      "index": 2,
+      "stop_x_m": 6.000699000114755,
+      "estimated_target_x_m": 9.87591667342893,
+      "last_image_range_m": 2.7647509486293846
+    }
+  ],
+  "stop_m": 2.8,
+  "end_x": 12.3,
+  "last_x_m": 12.356979000119797,
+  "elapsed_s": 85.5293316219977,
+  "events": [
+    {
+      "elapsed_s": 1.3874808039981872,
+      "x_m": -2.5235765774836422e-17,
+      "event": "START"
+    },
+    {
+      "elapsed_s": 1.4685613969995757,
+      "x_m": -2.5235765774836422e-17,
+      "event": "NORMAL_RECOGNIZED"
+    },
+    {
+      "elapsed_s": 15.892425984999136,
+      "x_m": 2.439500000113523,
+      "event": "STAIN_RECOGNIZED"
+    },
+    {
+      "elapsed_s": 22.00257544699707,
+      "x_m": 3.0029300001123658,
+      "event": "AI_BRAKING",
+      "image_range_m": 2.7402248920472934
+    },
+    {
+      "elapsed_s": 22.43071371899714,
+      "x_m": 3.0178400001129733,
+      "event": "STOP_CONFIRMED",
+      "index": 1,
+      "stop_x_m": 3.0178400001129733,
+      "estimated_target_x_m": 6.8829968201782785,
+      "last_image_range_m": 2.7402248920472934
+    },
+    {
+      "elapsed_s": 25.464715394999075,
+      "x_m": 3.0178400001129733,
+      "event": "RESUME"
+    },
+    {
+      "elapsed_s": 47.058703422997496,
+      "x_m": 5.98774900011415,
+      "event": "AI_BRAKING",
+      "image_range_m": 2.7647509486293846
+    },
+    {
+      "elapsed_s": 47.50726893999672,
+      "x_m": 6.000699000114755,
+      "event": "STOP_CONFIRMED",
+      "index": 2,
+      "stop_x_m": 6.000699000114755,
+      "estimated_target_x_m": 9.87591667342893,
+      "last_image_range_m": 2.7647509486293846
+    },
+    {
+      "elapsed_s": 50.50742336199983,
+      "x_m": 6.000699000114755,
+      "event": "RESUME"
+    },
+    {
+      "elapsed_s": 84.54973553599848,
+      "x_m": 12.316799000118586,
+      "event": "END_BRAKING",
+      "image_range_m": null
+    },
+    {
+      "elapsed_s": 85.12270002999867,
+      "x_m": 12.356979000119797,
+      "event": "DONE",
+      "inspection_count": 2
+    }
+  ]
+}

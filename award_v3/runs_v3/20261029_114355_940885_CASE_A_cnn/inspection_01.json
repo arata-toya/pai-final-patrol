@@ -1,0 +1,19 @@
+{
+  "index": 1,
+  "stop_x_m": 6.017060000001683,
+  "estimated_target_x_m": 9.884596820066989,
+  "last_image_range_m": 2.747528885546323,
+  "classification": "crack",
+  "capture_only": false,
+  "model_sha256": "0148fd9528b8184b070c65f291b9554c1d87b3a2661dff4047aa880e125b5981",
+  "confidence": 0.9825220108032227,
+  "probabilities": [
+    4.7026996879973026e-11,
+    0.017477961257100105,
+    0.9825220108032227
+  ],
+  "crop_age_s": 0.09286096199866734,
+  "image": "inspection_01.png",
+  "annotated_image": "inspection_01_annotated.png",
+  "note": "Synthetic wall experiment; not a structural diagnosis"
+}

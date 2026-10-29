@@ -1,0 +1,82 @@
+{
+  "CASE_A": {
+    "panels": [
+      {
+        "class_name": "normal",
+        "texture": "normal",
+        "x_m": 4
+      },
+      {
+        "class_name": "stain",
+        "texture": "stain",
+        "x_m": 7
+      },
+      {
+        "class_name": "crack",
+        "texture": "crack",
+        "x_m": 10
+      }
+    ],
+    "end_x_m": 12.3
+  },
+  "CASE_B": {
+    "panels": [
+      {
+        "class_name": "normal",
+        "texture": "normal",
+        "x_m": 4
+      },
+      {
+        "class_name": "crack",
+        "texture": "crack_alt",
+        "x_m": 7
+      },
+      {
+        "class_name": "stain",
+        "texture": "stain",
+        "x_m": 10
+      }
+    ],
+    "end_x_m": 12.3
+  },
+  "CASE_C": {
+    "panels": [
+      {
+        "class_name": "normal",
+        "texture": "normal",
+        "x_m": 4
+      },
+      {
+        "class_name": "stain",
+        "texture": "stain",
+        "x_m": 7
+      },
+      {
+        "class_name": "normal",
+        "texture": "normal",
+        "x_m": 10
+      }
+    ],
+    "end_x_m": 12.3
+  },
+  "CASE_D": {
+    "panels": [
+      {
+        "class_name": "normal",
+        "texture": "normal",
+        "x_m": 4
+      },
+      {
+        "class_name": "crack",
+        "texture": "crack",
+        "x_m": 7
+      },
+      {
+        "class_name": "crack",
+        "texture": "crack_alt",
+        "x_m": 10
+      }
+    ],
+    "end_x_m": 12.3
+  }
+}

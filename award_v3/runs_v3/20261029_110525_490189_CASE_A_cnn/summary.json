@@ -1,0 +1,36 @@
+{
+  "version": "v3.0",
+  "scenario": "CASE_A",
+  "mode": "cnn",
+  "final_state": "FAULT",
+  "normal_seen": true,
+  "stain_seen": true,
+  "inspections": [],
+  "stop_m": 2.8,
+  "end_x": 12.3,
+  "last_x_m": 6.890760000001045,
+  "elapsed_s": 237.0581064179969,
+  "events": [
+    {
+      "elapsed_s": 128.08385770699897,
+      "x_m": 1.1461381267430258e-17,
+      "event": "START"
+    },
+    {
+      "elapsed_s": 128.09250785399854,
+      "x_m": 1.1461381267430258e-17,
+      "event": "NORMAL_RECOGNIZED"
+    },
+    {
+      "elapsed_s": 131.98198319699804,
+      "x_m": 0.6332200000008865,
+      "event": "STAIN_RECOGNIZED"
+    },
+    {
+      "elapsed_s": 168.25910616799956,
+      "x_m": 6.880720000000658,
+      "event": "FAULT",
+      "reason": "near_target_lost"
+    }
+  ]
+}

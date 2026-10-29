@@ -1,0 +1,62 @@
+{
+  "scope": "Paired degraded versions of the same 600 fresh synthetic images; not 600 additional independent images",
+  "labels": [
+    "normal",
+    "stain",
+    "crack"
+  ],
+  "threshold": 0.85,
+  "results": {
+    "before": {
+      "correct": 416,
+      "total": 600,
+      "confusion_matrix": [
+        [
+          200,
+          0,
+          0
+        ],
+        [
+          46,
+          153,
+          1
+        ],
+        [
+          0,
+          137,
+          63
+        ]
+      ],
+      "accepted": 449,
+      "accepted_correct": 350,
+      "crack_TP": 40,
+      "crack_FP": 1
+    },
+    "after": {
+      "correct": 549,
+      "total": 600,
+      "confusion_matrix": [
+        [
+          200,
+          0,
+          0
+        ],
+        [
+          24,
+          170,
+          6
+        ],
+        [
+          0,
+          21,
+          179
+        ]
+      ],
+      "accepted": 455,
+      "accepted_correct": 448,
+      "crack_TP": 138,
+      "crack_FP": 1
+    }
+  },
+  "model_sha256": "0148fd9528b8184b070c65f291b9554c1d87b3a2661dff4047aa880e125b5981"
+}

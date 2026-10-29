@@ -1,0 +1,268 @@
+{
+  "scope": "synthetic projection + simple 1D motion; NOT Gazebo",
+  "results": [
+    {
+      "case": "CASE_A",
+      "state": "DONE",
+      "expected": 1,
+      "inspections": 1,
+      "stop_positions": [
+        5.987999999999995
+      ],
+      "observed_classes": [
+        "crack",
+        "normal",
+        "stain",
+        "uncertain"
+      ],
+      "events": [
+        {
+          "elapsed_s": 0,
+          "x_m": 0,
+          "event": "START"
+        },
+        {
+          "elapsed_s": 0.0,
+          "x_m": 0.0,
+          "event": "NORMAL_RECOGNIZED"
+        },
+        {
+          "elapsed_s": 0.2,
+          "x_m": 0.030000000000000006,
+          "event": "STAIN_RECOGNIZED"
+        },
+        {
+          "elapsed_s": 24.0,
+          "x_m": 5.9839999999999955,
+          "event": "AI_BRAKING",
+          "image_range_m": 2.756289307335889
+        },
+        {
+          "elapsed_s": 24.3,
+          "x_m": 5.987999999999995,
+          "event": "STOP_CONFIRMED",
+          "index": 1,
+          "stop_x_m": 5.987999999999995,
+          "estimated_target_x_m": 9.872797892047288,
+          "last_image_range_m": 2.756289307335889
+        },
+        {
+          "elapsed_s": 27.3,
+          "x_m": 5.987999999999995,
+          "event": "RESUME"
+        },
+        {
+          "elapsed_s": 50.0,
+          "x_m": 12.318000000000037,
+          "event": "END_BRAKING",
+          "image_range_m": null
+        },
+        {
+          "elapsed_s": 50.400000000000006,
+          "x_m": 12.344000000000037,
+          "event": "DONE",
+          "inspection_count": 1
+        }
+      ],
+      "true_forward_gaps_m": [
+        2.863427000000005
+      ],
+      "pass": true
+    },
+    {
+      "case": "CASE_B",
+      "state": "DONE",
+      "expected": 1,
+      "inspections": 1,
+      "stop_positions": [
+        2.9779999999999913
+      ],
+      "observed_classes": [
+        "crack",
+        "normal",
+        "stain",
+        "uncertain"
+      ],
+      "events": [
+        {
+          "elapsed_s": 0,
+          "x_m": 0,
+          "event": "START"
+        },
+        {
+          "elapsed_s": 0.0,
+          "x_m": 0.0,
+          "event": "NORMAL_RECOGNIZED"
+        },
+        {
+          "elapsed_s": 9.1,
+          "x_m": 2.4,
+          "event": "STAIN_RECOGNIZED"
+        },
+        {
+          "elapsed_s": 13.200000000000001,
+          "x_m": 2.9739999999999913,
+          "event": "AI_BRAKING",
+          "image_range_m": 2.7721931035939695
+        },
+        {
+          "elapsed_s": 13.5,
+          "x_m": 2.9779999999999913,
+          "event": "STOP_CONFIRMED",
+          "index": 1,
+          "stop_x_m": 2.9779999999999913,
+          "estimated_target_x_m": 6.870101885546314,
+          "last_image_range_m": 2.7721931035939695
+        },
+        {
+          "elapsed_s": 16.5,
+          "x_m": 2.9779999999999913,
+          "event": "RESUME"
+        },
+        {
+          "elapsed_s": 49.900000000000006,
+          "x_m": 12.304000000000004,
+          "event": "END_BRAKING",
+          "image_range_m": null
+        },
+        {
+          "elapsed_s": 50.300000000000004,
+          "x_m": 12.330000000000004,
+          "event": "DONE",
+          "inspection_count": 1
+        }
+      ],
+      "true_forward_gaps_m": [
+        2.8734270000000093
+      ],
+      "pass": true
+    },
+    {
+      "case": "CASE_C",
+      "state": "DONE",
+      "expected": 0,
+      "inspections": 0,
+      "stop_positions": [],
+      "observed_classes": [
+        "normal",
+        "stain",
+        "uncertain"
+      ],
+      "events": [
+        {
+          "elapsed_s": 0,
+          "x_m": 0,
+          "event": "START"
+        },
+        {
+          "elapsed_s": 0.0,
+          "x_m": 0.0,
+          "event": "NORMAL_RECOGNIZED"
+        },
+        {
+          "elapsed_s": 0.2,
+          "x_m": 0.030000000000000006,
+          "event": "STAIN_RECOGNIZED"
+        },
+        {
+          "elapsed_s": 44.1,
+          "x_m": 12.322000000000015,
+          "event": "END_BRAKING",
+          "image_range_m": null
+        },
+        {
+          "elapsed_s": 44.5,
+          "x_m": 12.348000000000015,
+          "event": "DONE",
+          "inspection_count": 0
+        }
+      ],
+      "true_forward_gaps_m": [],
+      "pass": true
+    },
+    {
+      "case": "CASE_D",
+      "state": "DONE",
+      "expected": 2,
+      "inspections": 2,
+      "stop_positions": [
+        2.9779999999999913,
+        5.983999999999984
+      ],
+      "observed_classes": [
+        "crack",
+        "normal"
+      ],
+      "events": [
+        {
+          "elapsed_s": 0,
+          "x_m": 0,
+          "event": "START"
+        },
+        {
+          "elapsed_s": 0.0,
+          "x_m": 0.0,
+          "event": "NORMAL_RECOGNIZED"
+        },
+        {
+          "elapsed_s": 13.200000000000001,
+          "x_m": 2.9739999999999913,
+          "event": "AI_BRAKING",
+          "image_range_m": 2.7721931035939695
+        },
+        {
+          "elapsed_s": 13.5,
+          "x_m": 2.9779999999999913,
+          "event": "STOP_CONFIRMED",
+          "index": 1,
+          "stop_x_m": 2.9779999999999913,
+          "estimated_target_x_m": 6.870101885546314,
+          "last_image_range_m": 2.7721931035939695
+        },
+        {
+          "elapsed_s": 16.5,
+          "x_m": 2.9779999999999913,
+          "event": "RESUME"
+        },
+        {
+          "elapsed_s": 29.8,
+          "x_m": 5.979999999999984,
+          "event": "AI_BRAKING",
+          "image_range_m": 2.756289307335889
+        },
+        {
+          "elapsed_s": 30.1,
+          "x_m": 5.983999999999984,
+          "event": "STOP_CONFIRMED",
+          "index": 2,
+          "stop_x_m": 5.983999999999984,
+          "estimated_target_x_m": 9.876101885546307,
+          "last_image_range_m": 2.756289307335889
+        },
+        {
+          "elapsed_s": 33.1,
+          "x_m": 5.983999999999984,
+          "event": "RESUME"
+        },
+        {
+          "elapsed_s": 55.800000000000004,
+          "x_m": 12.314000000000027,
+          "event": "END_BRAKING",
+          "image_range_m": null
+        },
+        {
+          "elapsed_s": 56.2,
+          "x_m": 12.340000000000027,
+          "event": "DONE",
+          "inspection_count": 2
+        }
+      ],
+      "true_forward_gaps_m": [
+        2.8734270000000093,
+        2.867427000000016
+      ],
+      "pass": true
+    }
+  ],
+  "model_sha256": "0148fd9528b8184b070c65f291b9554c1d87b3a2661dff4047aa880e125b5981"
+}

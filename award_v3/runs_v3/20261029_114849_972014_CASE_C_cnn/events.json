@@ -1,0 +1,29 @@
+[
+  {
+    "elapsed_s": 1.6034126740014472,
+    "x_m": -2.5235765774836422e-17,
+    "event": "START"
+  },
+  {
+    "elapsed_s": 1.6952106590033509,
+    "x_m": -2.5235765774836422e-17,
+    "event": "NORMAL_RECOGNIZED"
+  },
+  {
+    "elapsed_s": 5.379709989003459,
+    "x_m": 0.536340000115205,
+    "event": "STAIN_RECOGNIZED"
+  },
+  {
+    "elapsed_s": 75.08063931400102,
+    "x_m": 12.324340000118507,
+    "event": "END_BRAKING",
+    "image_range_m": null
+  },
+  {
+    "elapsed_s": 75.66805968100016,
+    "x_m": 12.36844000011972,
+    "event": "DONE",
+    "inspection_count": 0
+  }
+]

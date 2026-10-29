@@ -1,0 +1,44 @@
+{
+  "scope": "Earlier development result before brightness normalization; NOT final model",
+  "labels": [
+    "normal",
+    "stain",
+    "crack"
+  ],
+  "selected_epoch": 33,
+  "train_counts": {
+    "normal": 240,
+    "stain": 240,
+    "crack": 240
+  },
+  "validation_counts": {
+    "normal": 60,
+    "stain": 60,
+    "crack": 60
+  },
+  "test_counts": {
+    "normal": 60,
+    "stain": 60,
+    "crack": 60
+  },
+  "confusion_matrix": [
+    [
+      60,
+      0,
+      0
+    ],
+    [
+      12,
+      47,
+      1
+    ],
+    [
+      0,
+      1,
+      59
+    ]
+  ],
+  "correct": 166,
+  "total": 180,
+  "accuracy": 0.9222221970558167
+}

@@ -1,0 +1,96 @@
+{
+  "scope": "single synthetic panel at three global brightness gains",
+  "samples": [
+    {
+      "expected": "normal",
+      "gain": 0.4,
+      "detections": [
+        {
+          "label": "normal",
+          "score": 0.8980594277381897
+        }
+      ]
+    },
+    {
+      "expected": "normal",
+      "gain": 0.65,
+      "detections": [
+        {
+          "label": "normal",
+          "score": 0.9028201699256897
+        }
+      ]
+    },
+    {
+      "expected": "normal",
+      "gain": 1.0,
+      "detections": [
+        {
+          "label": "normal",
+          "score": 0.9090553522109985
+        }
+      ]
+    },
+    {
+      "expected": "stain",
+      "gain": 0.4,
+      "detections": [
+        {
+          "label": "stain",
+          "score": 0.982545018196106
+        }
+      ]
+    },
+    {
+      "expected": "stain",
+      "gain": 0.65,
+      "detections": [
+        {
+          "label": "stain",
+          "score": 0.9796820878982544
+        }
+      ]
+    },
+    {
+      "expected": "stain",
+      "gain": 1.0,
+      "detections": [
+        {
+          "label": "stain",
+          "score": 0.9784906506538391
+        }
+      ]
+    },
+    {
+      "expected": "crack",
+      "gain": 0.4,
+      "detections": [
+        {
+          "label": "crack",
+          "score": 0.954787015914917
+        }
+      ]
+    },
+    {
+      "expected": "crack",
+      "gain": 0.65,
+      "detections": [
+        {
+          "label": "crack",
+          "score": 0.9520543217658997
+        }
+      ]
+    },
+    {
+      "expected": "crack",
+      "gain": 1.0,
+      "detections": [
+        {
+          "label": "crack",
+          "score": 0.9490132331848145
+        }
+      ]
+    }
+  ],
+  "model_sha256": "c22a854e12e799c3ee2e55abf60e3943184bc92e24d23de0b064f1eace05d8c4"
+}
